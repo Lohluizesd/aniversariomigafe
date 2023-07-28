@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+:root{
+
+	--cor-primaria: #FFFFFF; /*Background principal- cor do fundo*/
+	--cor-secundaria: #647e37; /*Cor do header e do footer*/
+	--cor-texto: #928752;
+	--letra-primaria:'EB Garamond', serif; /*Letra do header e footer*/
+	--cor-hover: #e6e5e8;
+
+}
+
+body{
+	background-color: var(--cor-primaria);
+	background-image: url("assets/flor.avif");
+	background-size: 100%;
+	
+	min-height: 100vh;
+
+}
+
+.cabecalho{
+	padding: 30px 45px 0 45px;
+}
+
+.cabecalho__menu{
+
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+}
+
+.cabecalho__menu__links {
+
+	text-decoration: none;
+	color: var(--cor-secundaria);
+	font-size: 20px;
+	font-family: var(--letra-primaria);
+	font-weight: 400;
+}
+
+.cabecalho__menu__links:hover{
+
+	background-color: var(--cor-hover);
+
+}
+
+.principal{
+	padding: 5%;
+	text-align: center; /*Alinha o texto, sem ser texto justificado, tipo o word*/
+
+}
+
+.principal__texto{
+	padding: 5%;
+}
+
+.principal__titulo{
+	font-family: var(--letra-primaria);
+	font-size: 25px;
+	color: var(--cor-texto);
+}
+
+.principal__subtitulo{
+	font-family: var(--letra-primaria);
+	font-size:15px;
+	color: var();
+}
+
+.mini_imagem{
+	height: 12px;
+	
+}
+.principal__imagem{
+	width: 600px;
+	height: 350px;
+
+}
+
+.album__de__fotos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+
+
+.album{
+	height: 400px;
+	width: 250px;
+	padding: 15px;
+}
+
+.album__deitada{
+	height: 400px;
+	padding: 15px;
+}
+
+
+.rodape{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	
+}
+
+.rodape__texto{
+	color: var(--cor-secundaria);
+	font-family: var(--letra-primaria);
+	font-weight: 400;
+	font-size: 20px;
+}
